@@ -1,2 +1,1 @@
-# check
-trying to push the code into github
+Try to clone the UI of instagram
