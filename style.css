@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+:root {
+    --bg-color--: #000000;
+    --text-color--: #f9f9f9;
+    --line-color--: #2b2b2b;
+    --logo-text-size--: 24px;
+
+}
+
+.main-container {
+    display: flex;
+    background-color: var(--bg-color--);
+    color: var(--text-color--);
+}
+
+.nav {
+    width: 15.99%;
+    height: 100vh;
+    background-color: var(--bg-color--);
+    border-right: 0.001px solid var(--line-color--);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 19px;
+    overflow: hidden;
+    position: fixed;
+    z-index: 100;
+
+}
+
+#logo {
+    padding: 20px 5px;
+    display: flex;
+}
+
+.nav-elements {
+    display: flex;
+    align-content: center;
+}
+
+.nav-elements #profile {
+    height: 30px;
+    border-radius: 50%;
+}
+
+.nav-elements i {
+    font-size: 23px;
+}
+
+.nav ul a {
+    display: flex;
+    height: 8.5vh;
+    padding: 0px 15px;
+    list-style: none;
+    align-items: center;
+    gap: 18px;
+    padding: 0 15px;
+}
+
+aside a {
+    color: var(--text-color--);
+    text-decoration: none;
+}
+
+.nav ul a:hover {
+    background-color: var(--line-color--);
+    border-radius: 4px;
+}
+
+#instagram-text {
+    font-family: 'Pacifico', cursive, sans-serif;
+    font-size: var(--logo-text-size--);
+}
+
+
+/* main section starts */
+.scroll {
+    width: calc(100% - 16%);
+    display: flex;
+    position: relative;
+    left: 15.99%;
+}
+
+/* middle scroll  */
+/* story css */
+
+.mainscroll {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    /* background-color: pink; */
+    /* color: black; */
+    align-items: center;
+}
+
+.story {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    padding: 30px 4%;
+    justify-content: center;
+    overflow: auto;
+
+}
+
+.story .person {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.story .storyimg {
+    width: 95px;
+    border-radius: 50%;
+    border: 4px solid lime;
+    /* border: 4px solid; */
+
+
+    padding: 4px;
+}
+
+
+
+.suggestion {
+    width: 30%;
+    /* background-color: rgb(89, 98, 98); */
+}
+
+
+
+/* styling post */
+.post {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: 10px 0;
+}
+
+.post .post-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-items: center;
+}
+
+.post-title .title-left {
+    display: flex;
+}
+
+.title-left .name-reference {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.title-left .title-img {
+    display: flex;
+    height: 40px;
+    border-radius: 50%;
+    margin: 8px;
+
+}
+
+.content {
+    height: 500px;
+}
+
+.content .content-img {
+    height: 100%;
+    border-radius: 4px;
+
+}
+
+.story .person #first:visited img {
+    border: 2px solid var(--line-color--);
+}
+
+.details .details-interact {
+    display: flex;
+    justify-content: space-between;
+    margin: 4px 5px;
+}
+
+.details-interact .interact-left {
+    display: flex;
+    gap: 14px;
+}
+
+.details .details-interact i {
+    font-size: 23px;
+    margin: 10px 0;
+}
+
+.post-end {
+    border: 0.001px solid var(--line-color--);
+    margin-top: 12px;
+}
+
+
+/* Suggestion bar starts */
+.suggestion {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 80px 40px;
+    align-content: center;
+}
+
+.suggestion .suggestion-person {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.suggestion-left {
+    display: flex;
+    align-items: center;
+}
+
+
+.suggestion-accounts {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.suggestion-accounts .suggestion-suggestions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.suggestion-accounts .suggestion-profiles {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.suggestion img {
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
