@@ -1,1 +1,1 @@
-Try to clone the UI of instagram
+Trying to clone the homepage of instagram.
